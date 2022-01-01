@@ -1,0 +1,82 @@
+
+body {
+    height: 100vh;
+}
+
+#header {
+    background-color: black;
+    border-bottom: red 5px solid;
+
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+   margin: 0;
+   padding: 0;
+}
+
+#header ul li a {
+    color: white;
+    text-decoration: none;
+
+}
+#header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header li {
+    display: inline;
+    padding: 0px 20px;
+    font-family: "audiowide", Arial, Helvetica, sans-serif;
+}
+#branding {
+    color: white;
+    font-family: "audiowide", Arial, Helvetica, sans-serif;
+
+}
+span {
+    color: #ff0000;
+}
+#main {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.1)), url(images/banner.jpg);
+    background-size: cover;
+    height: 80vh;
+    text-align: center;
+    color: white;
+}
+#main h1 {
+    font-size: 60px;
+    margin: 200px 0px 10px;
+    font-family: "audiowide", Arial, Helvetica, sans-serif;
+
+}
+#main p {
+    font-size: 30px;
+    font-family: "audiowide", Arial, Helvetica, sans-serif;
+
+}
+#about, #contact {
+    background-color: black;
+    color: white;
+}
+#about h2, #contact h2 {
+    color: red;
+    text-align: center;
+    font-family: "audiowide", Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+#about p, #contact p {
+    font-family: "audiowide", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 0 10px;
+}
+#header a:hover {
+    background-color: yellow;
+    
+}
