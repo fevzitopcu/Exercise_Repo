@@ -197,10 +197,14 @@
  ON markalar.marka_id=siparisler.marka_id;
  
   
- SELECT markalar.marka_id, markalar.marka_adi,
-	siparisler.siparis_adedi, siparisler.siparis_tarihi
- FROM markalar
- LEFT JOIN siparisler /*ortak olanları istediği için INNER join yaptık  */
+ SELECT m.marka_id, m.marka_adi,s.siparis_adedi, s.siparis_tarihi
+ FROM markalar as m
+ LEFT JOIN siparisler as s /*ortak olanları istediği için INNER join yaptık  */
  ON markalar.marka_id=siparisler.marka_id;
  
+  /*===================================================*/   
+  
+  SELECT * from markalar;
+  SELECT * FROM siparisler;
+  
  
