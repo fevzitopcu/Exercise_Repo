@@ -16,7 +16,7 @@
 -- Günümüzde bir database satin aldigimizda yada ücretsiz versiyonlarini kullandigimizda, bunlar
 -- dbms ile birlikte gelmektedir.
 
--- Database dedigimizde 3 sey aklimiza gelir. ve bunlar birlikte kullanilir
+-- Database dedigimizde 3 sey aklimiza gelir. ve bunlar birlikte kullanilir.
 -- DATABASE
 -- server
 -- dbms
