@@ -15,6 +15,7 @@
         // debugger;
 
         // innerHTML html etiketine veri gönderir ve etiketin içeriğinin değiştirir.
+        // innerHTML html etiketine veri gönderir ve etiketin içeriğinin değiştirir.
         document.getElementById("first").innerHTML = "fevzi";
         document.getElementById("second").innerHTML = "topçu";
 
