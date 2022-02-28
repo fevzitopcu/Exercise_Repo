@@ -1,3 +1,5 @@
+import string
+
 
 def print_menu():
     message = """
@@ -28,8 +30,14 @@ def add(phoneBook):
     name = input("Name: ")
     print(f"Insert phone number of {name}")
     phone = input("Number: ")
-    phoneBook[name] = phone
+    phoneBook[name] = check_number(phone)
     print(f"Phone number of {name} is inserted into the phonebook")
+
+def check_number(phone):
+    if phone in string.digits:
+        return phone
+    else:
+        print("Enter correct phone number")
 
 
 def delete(phoneBook):
